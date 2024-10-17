@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { RouterView } from 'vue-router'
-import ProfileIcon from './components/ProfileIcon.vue'
+import { RouterView } from 'vue-router';
+import ProfileIcon from './components/ProfileIcon.vue';
+import ExactBalance from './components/ExactBalance.vue';
 import SideBar from './components/SideBar.vue';
 </script>
 
@@ -11,6 +12,8 @@ import SideBar from './components/SideBar.vue';
   </header>
 
   <SideBar />
+  
+  <ExactBalance />
 
   <RouterView />
 </template>
@@ -31,10 +34,17 @@ header {
   height: 90px;
   background-color: #333;
 
-  .logotype {
+.logotype {
     font-size: 32px;
     font-weight: bold;
     color: white;
-  }
+}
+}
+
+.balance-container {
+   position: fixed; 
+   top:10px; 
+   right :10px; 
+   width :25%; 
 }
 </style>
