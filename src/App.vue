@@ -2,6 +2,7 @@
 import { RouterView } from 'vue-router'
 import ProfileIcon from './components/ProfileIcon.vue'
 import SideBar from './components/SideBar.vue';
+
 </script>
 
 <template>
@@ -11,7 +12,7 @@ import SideBar from './components/SideBar.vue';
   </header>
 
   <SideBar />
-
+  
   <RouterView />
 </template>
 
@@ -36,5 +37,4 @@ header {
     font-weight: bold;
     color: white;
   }
-}
-</style>
+} </style>
