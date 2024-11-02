@@ -3,6 +3,7 @@ import { RouterView } from 'vue-router';
 import ProfileIcon from './components/ProfileIcon.vue';
 import ExactBalance from './components/ExactBalance.vue';
 import SideBar from './components/SideBar.vue';
+import LastTransaction from './components/LastTransaction.vue';
 </script>
 
 <template>
@@ -14,7 +15,7 @@ import SideBar from './components/SideBar.vue';
   <SideBar />
   
   <ExactBalance />
-
+  <LastTransaction />
   <RouterView />
 </template>
 
