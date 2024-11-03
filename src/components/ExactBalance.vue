@@ -64,7 +64,7 @@ const user: {
     .balance-item {
       display: flex;
       align-items: center;
-      justify-content: space-between; /* Выравнивание элементов по краям */
+      justify-content: space-between; 
       padding: 10px;
       transition: background-color .3s; 
       border-bottom: 1px solid var(--vt-c-divider-light-1); 
@@ -88,8 +88,9 @@ const user: {
 
       .coin-details {
         display: flex;
-        flex-direction: column; 
-        
+        justify-content: space-between;        
+        align-items: center;
+        width: 100%;
         .coin-name {
           color: var(--vt-c-white); 
           font-size: 18px; 
@@ -99,7 +100,7 @@ const user: {
         .coin-amount {
           color: var(--vt-c-white-soft); 
           font-size: 16px; 
-          margin-top: -5px; 
+         
           margin-left:auto; 
           text-align:right; 
         }

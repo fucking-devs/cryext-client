@@ -152,29 +152,30 @@ const transactions: Transaction[] = [
      .transaction-details {
        display:flex;
        flex-direction :column; 
+       
 
        .wallet {
          color :var(--vt-c-white);
-         font-size :16px;
-         margin-bottom :5px;
+         font-size :12px;
+        
        }
        .date {
         color :var(--vt-c-text-dark-2);
-         font-size :12px;
-         margin-bottom :5px;
+         font-size :8px;
+         
        }
      }
 
      .quantity {
        color :var(--vt-c-white);
-       font-size :16px;
+       font-size :12px;
        margin-left:auto; 
        text-align: right;
        
        .currency-name { 
          color :var(--vt-c-white-soft); 
-         font-size :18px; 
-         margin-bottom: -5px;  
+         font-size :14px; 
+          
          font-weight: bold;
        }
      }
