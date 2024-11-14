@@ -1,3 +1,4 @@
+<!--  Исправить на lang='ts' setup -->
 <template>
   <div class="card">
     <h2>{{ title }}</h2>
@@ -15,6 +16,7 @@ export default {
 }
 </script>
 
+<!-- Подправить стили -->
 <style>
 .card {
   border: 1px solid black;
