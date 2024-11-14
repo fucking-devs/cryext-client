@@ -1,4 +1,5 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+</script>
 
 <template>
     <div class="sidebar">
@@ -15,7 +16,6 @@
     background-color: var(--sidebar-color);
 
     position: fixed;
-    left: 0;
     top: 0;
     bottom: 0;
 

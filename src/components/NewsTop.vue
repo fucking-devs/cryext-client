@@ -1,6 +1,4 @@
-
-
-
+<!--  Исправить на lang='ts' setup -->
 <script>
 import Card from './Card.vue';
 
@@ -25,3 +23,6 @@ export default {
     <card v-for="card in cards" :title="card.title" :content="card.content"  :key="card.id"/>
   </div>
 </template>
+
+
+<!-- Подправить стили -->
