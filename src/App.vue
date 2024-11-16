@@ -3,6 +3,8 @@ import { RouterView } from 'vue-router'
 import ProfileIcon from './components/ProfileIcon.vue'
 import SideBar from './components/SideBar.vue';
 import { useSidebarStore } from '@/stores/sidebarStore'
+import HomeView from './views/HomeView.vue';
+
 
 const sidebarStore = useSidebarStore()
 </script>
@@ -13,10 +15,11 @@ const sidebarStore = useSidebarStore()
     <div class="logotype">Cryext</div>
     <ProfileIcon :size="64" />
   </header>
-
+ <HomeView></HomeView>
   <SideBar :class="{ isOpen: sidebarStore.isOpen }"/>
   
   <RouterView />
+  
 </template>
 
 <style>

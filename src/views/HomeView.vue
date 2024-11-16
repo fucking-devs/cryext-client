@@ -1,6 +1,10 @@
 <script lang="ts" setup>
-import NewsTop from '@/components/NewsTop.vue';
+import LastTransaction from '@/components/LastTransaction.vue'
+import ExactBalance from '@/components/ExactBalance.vue'
+import ChartCrypto from '@/components/ChartCrypto.vue'
 </script>
 <template>
-    <NewsTop/>
+    <ExactBalance></ExactBalance>
+  <LastTransaction></LastTransaction>
+  <ChartCrypto></ChartCrypto>
 </template>
